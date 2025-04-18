@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Caixa de Texto Interativa</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    input[type="text"] {
+      padding: 15px 25px;
+      font-size: 18px;
+      border: 2px solid #ccc;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    input[type="text"]:hover {
+      border-color: #888;
+      background-color: #fafafa;
+    }
+
+    input[type="text"]:focus {
+      border-color: #4A90E2;
+      box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+      outline: none;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" placeholder="Digite algo...">
+</body>
+</html>
